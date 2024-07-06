@@ -1,0 +1,24 @@
+#main-page {
+  width: 100%; }
+  #main-page h1 {
+    text-align: center;
+    font-size: 45px; }
+  #main-page table {
+    margin: auto;
+    font-family: sans-serif; }
+    #main-page table thead {
+      font-size: 26px;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white; }
+    #main-page table th, #main-page table td {
+      padding: 10px;
+      text-align: center;
+      border-bottom: solid 1px rgba(255, 255, 255, 0.3); }
+    #main-page table td {
+      font-size: 20px;
+      text-transform: capitalize; }
+    #main-page table #showIssue {
+      cursor: pointer; }
+      #main-page table #showIssue a {
+        text-decoration: none;
+        color: blueviolet; }

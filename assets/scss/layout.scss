@@ -1,0 +1,32 @@
+// main layout 
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+	background:#F0A11A;
+    overflow: hidden;
+    
+#main{
+    .border{
+        padding:400px;
+        background:linear-gradient(30deg, rgba(240, 161, 26, 1) 17%, rgba(90, 172, 105, 0.75) 36%, rgba(90, 172, 105, 1) 47%, rgba(240, 161, 26, 1) 51%, rgba(90, 172, 105, 0.75) 70%, rgba(240, 161, 26, 1) 90%);
+        border-radius:20%;
+        opacity:80%;
+    }
+    .frame {
+        position: absolute;
+        display:flex;
+        top: 18%;
+        left: 22%;
+        height: 550px;
+        width: 70%;
+        margin-inline:auto; 
+        border-radius: 20px;
+        overflow: hidden;
+        background:radial-gradient(circle at 50% 50%, #FD9600 0%, #F7A300 46%, #E5AC03 100%);
+        box-shadow:  13px 13px 17px #5c4501,
+                   -1px -1px 17px #ffff05;
+        font-family: 'Indie Flower', cursive;
+      }
+}
+}
